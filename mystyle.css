@@ -1,0 +1,45 @@
+p {
+    color:maroon; 
+     
+}
+h2 {
+    background-color:slategrey;
+}
+h1 {
+    color:darkred;
+}
+ol {
+    color:darkred;
+}
+* {box-sizing: border-box;}
+
+.wrapper > div {
+    border-radius: 5px;
+    background-color: rgb(207,232,220);
+    padding: 1em;
+    width: 200px;
+    height: 100px;
+}
+
+.wrapper {
+  display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+
+.opmaak {
+    text-align: center;
+}
+
+.hobby {
+    text-align:column;
+}
+
+.nostyle {
+    list-style: none;
+}
+
+ul: {
+    background-color: yellow;
+}
